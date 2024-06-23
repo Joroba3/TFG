@@ -1,0 +1,16 @@
+yolo:
+  cfg: "/home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/cones-customanchors.cfg"
+  data: "/home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/cones.data"
+  weights: "/home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/cones5.weights"
+
+camera:
+  topic: "/camera1/image_raw"
+  device: "/dev/camera0"
+  camera_mat: [1, 0, 0,
+               0, 1, 0,
+               0, 1, 1]
+  dist_coefs: [0, 0, 0, 0, 0]
+  homography_mat: [-7.43127399e-05, -5.97390278e-03, -9.03305818e-01,
+                   -3.01163269e-03, -1.29430178e-03,  3.51877186e+00,
+                   -1.05620391e-04, -3.12059021e-03,  1.00000000e+00]
+  img_format: "BRG"

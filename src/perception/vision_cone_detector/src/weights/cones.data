@@ -1,0 +1,5 @@
+classes = 5
+train = /home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/train.txt
+valid = /home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/test.txt
+names = /home/jacobo/TFG/ws/src/TFG/src/perception/vision_cone_detector/src/weights/cones.names
+backup = backup/
