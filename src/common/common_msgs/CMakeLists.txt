@@ -14,11 +14,14 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   Cone.msg
-   Map.msg
+   Trajectory.msg
+   Controls.msg
+   Camera_dofs.msg
+   Mission.msg
+   Simplex.msg
+   Triangulation.msg
+   CarState.msg
  )
-
-
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
